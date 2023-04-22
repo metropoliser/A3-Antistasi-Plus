@@ -7,7 +7,7 @@
 *.bat
 AntistasiBuilder.cfg
 
-build/@A3A-Plus
+build/@antistasiplus-schmutzedition
 
 #Ignore mission files that have been copied to A3-Antistasi
 A3-Antistasi/description.ext
@@ -19,7 +19,7 @@ A3-Antistasi/Navigation/
 A3-Antistasi/Pictures/Mission/
 
 #Keys
-Antistasi-Plus.biprivatekey
+antistasiplus-schmutzedition.biprivatekey
 
 #Ignore Python bytecode files and bytecode-cache folder
 __pycache__/

@@ -5,9 +5,9 @@ $terrain=$args[0]
 
 Write-Host "Copying mission of Antistasi Plus - $($terrain) to profile folder..."
 
-$path = ".\A3A\Addons\maps\Antistasi_$($terrain).$($terrain)"
+$path = ".\A3A\addons\maps\Antistasi_$($terrain).$($terrain)"
 
-$buildFolder = $env:userprofile + "\Documents\Arma 3 - Other Profiles\Socrates\missions";
+$buildFolder = $env:userprofile + "\Documents\Arma 3\missions";
 
 $devFolderItem = Get-ChildItem -Path $path | Select-Object -First 1;
 $devFolder = $devFolderItem.parent;
