@@ -575,7 +575,7 @@ if (magRepack) then {
 	Info("Initializing Mag Repack...");
 	[] execVM QPATHTOFOLDER(Scripts\MagRepack\MagRepack_init_sv.sqf);
 };
-
+[] execVM QPATHTOFOLDER(functions\Schmutz\fn_soundACE.sqf);
 [] call SCRT_fnc_misc_updateRichPresence;
 
 // adding player as paradrop attendant by default

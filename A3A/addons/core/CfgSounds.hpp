@@ -7,6 +7,54 @@ class CfgSounds
         sound[]={EQPATHTOFOLDER(core,Music\fire.ogg),db+12,1.0};
         titles[]={};
     };
+    class nahoermal
+    {
+        name="nahoermal";
+        sound[]={EQPATHTOFOLDER(core,Music\hoermal.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class ichkannbauen
+    {
+        name="ichkannbauen";
+        sound[]={EQPATHTOFOLDER(core,Music\ichkannbauen.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class kallehateinebehinderung
+    {
+        name="kallehateinebehinderung";
+        sound[]={EQPATHTOFOLDER(core,Music\kallehateinebehinderung.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class lufschlag
+    {
+        name="lufschlag";
+        sound[]={EQPATHTOFOLDER(core,Music\lufschlag.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class sosmarthohoho
+    {
+        name="sosmarthohoho";
+        sound[]={EQPATHTOFOLDER(core,Music\sosmarthohoho.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class salznurdasbeste
+    {
+        name="salznurdasbeste";
+        sound[]={EQPATHTOFOLDER(core,Music\salznurdasbeste.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
+
+    class sascha
+    {
+        name="sascha";
+        sound[]={EQPATHTOFOLDER(core,Music\sascha.ogg),db+12,1.0}; // NB, this will resolve from root
+        titles[]={};
+    };
 
     class StrikeImpact
     {

@@ -480,6 +480,11 @@ class CfgFunctions
             class punishment_sentence_server {};
         };
 
+        class Schmutz {
+            file = QPATHTOFOLDER(functions\Schmutz);
+            class soundACE {};
+        };        
+
         class REINF {
             file = QPATHTOFOLDER(functions\REINF);
             class addBombRun {};
