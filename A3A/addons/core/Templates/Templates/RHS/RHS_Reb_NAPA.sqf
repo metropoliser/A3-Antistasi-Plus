@@ -97,6 +97,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
     ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}],
     ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
     ["rhsgref_BRDM2_msv", 2500, "CAR", {true}],
+    ["rhs_tigr_sts_3camo_msv", 1, "CAR", {true}]
 
     ["rhsgref_nat_btr70", 6000, "APC", {true}],
     ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
