@@ -7,8 +7,8 @@ on:
         type: choice
         description: 'Options: Main Branch, Dev Branch'
         options:
-        - 2912941775 #main branch
-        - 2913672477 #dev branch
+        - 2965486829 #main branch
+        - 2965472881 #dev branch
 
 jobs:
 
