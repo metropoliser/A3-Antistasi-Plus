@@ -92,9 +92,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["blackMarketStock", [
     ["RHS_TOW_TriPod_WD", 3000, "STATICAT", {tierWar > 3}],
     ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
-
-
-    ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}],
+    ["RHS_AH64D", 100000, "PLANE", {true}],
+    ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}], 
     ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
     ["rhsgref_BRDM2_msv", 2500, "CAR", {true}],
     ["rhs_tigr_m_vdv", 3000, "CAR", {true}],
@@ -102,43 +101,29 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
     ["rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy", 4000, "CAR", {true}],
     ["rhsusf_rg33_m2_d", 5000, "CAR", {true}],
     ["RHS_BM21_MSV_01", 50000, "CAR", {true}],
-    ["rhs_9k79", 100000, "CAR", {true}],
-    
-
-    ["rhsgref_nat_btr70", 6000, "APC", {true}],
-    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_9k79", 100000, "CAR", {true}],    
+    ["rhsgref_nat_btr70", 6000, "APC", {true}], 
     ["rhs_Ob_681_2", 13000, "APC", {true}],
     ["rhs_bmp3mera_msv", 13500, "APC", {true}],
     ["rhs_bmd4m_vdv", 14000, "APC", {true}],
     ["rhsusf_stryker_m1134_wd", 15000, "APC", {true}],
-    ["RHS_M2A3_BUSKIII", 20000, "APC" {true}],
-
-    ["rhs_t72ba_tv", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_t80um", 22000, "TANK", {true}],
+    ["RHS_M2A3_BUSKIII", 20000, "TANK", {true}],  
+    ["rhs_t80um", 22000, "TANK", {true}],   
     ["rhsusf_m1a1fep_wd", 22500, "TANK", {true}],
     ["rhs_t72be_tv", 23000, "TANK", {true}],
     ["rhs_t90sm_tv", 24000, "TANK", {true}],
     ["rhsusf_m1a2sep1tuskiiwd_usarmy", 25000, "TANK", {true}],
     ["rhs_2s3_at_tv", 26000, "TANK", {true}],
-    ["rhsusf_m109_usarmy", 30000, "TANK", {true}],
-    
-    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
-    ["RHS_M6_wd", 15000, "AA", {true}],
-
+    ["rhsusf_m109_usarmy", 30000, "TANK", {true}],  //START
+    ["RHS_M6_wd", 15000, "TANK", {true}],
     ["RHS_C130J", 35000, "PLANE", {true}],
-    ["rhs_l159_CDF", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
     ["RHS_Su25SM_vvs", 45000, "PLANE", {true}],
-    ["rhs_mig29sm_vmf", 50000, "PLANE", [true]],
+    ["rhs_mig29sm_vmf", 50000, "PLANE", {true}],
     ["rhs_A10", 50000, "PLANE", {true}],
     ["RHS_T50_vvs_generic_ext", 60000, "PLANE", {true}],
-    ["rhsusf_f22", 70000, "PLANE", {true}],
-
+    ["rhsusf_f22", 70000, "PLANE", {true}], //ENDE
     ["RHS_MELB_AH6M", 12500, "HELI", {true}],
-    ["RHS_Mi8mt_vvsc", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
     ["RHS_UH1Y", 20000, "HELI", {true}],
-    ["RHS_Mi8MTV3_vvsc", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
     ["RHS_UH60M", 26000, "HELI", {true}],
     ["rhsusf_CH53E_USMC_GAU21", 27500, "HELI", {true}],
     ["RHS_Mi24V_vvsc", 30000, "HELI", {true}],
@@ -146,7 +131,14 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
     ["rhs_mi28n_vvsc", 40000, "HELI", {true}],
     ["RHS_AH1Z_wd", 42500, "HELI", {true}],
     ["RHS_AH64D_wd", 45000, "HELI", {true}],
-
+    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_t72ba_tv", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+    ["rhs_l159_CDF", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["RHS_Mi8mt_vvsc", 15000, "HELI", {tierWar > 5 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["RHS_Mi8MTV3_vvsc", 25000, "HELI", {tierWar > 5 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
 ]] call _fnc_saveToTemplate;
 
 ///////////////////////////
