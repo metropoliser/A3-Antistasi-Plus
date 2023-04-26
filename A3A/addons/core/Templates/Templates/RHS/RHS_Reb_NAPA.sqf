@@ -92,7 +92,6 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["blackMarketStock", [
     ["RHS_TOW_TriPod_WD", 3000, "STATICAT", {tierWar > 3}],
     ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
-    ["RHS_AH64D", 100000, "PLANE", {true}],
     ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}], 
     ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
     ["rhsgref_BRDM2_msv", 2500, "CAR", {true}],
